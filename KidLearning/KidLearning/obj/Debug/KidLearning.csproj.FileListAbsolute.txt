@@ -1,0 +1,17 @@
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\KidLearning.exe.config
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\KidLearning.exe
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\KidLearning.pdb
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\EntityFramework.dll
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.dll
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\EntityFramework.xml
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.xml
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.MainMenu.resources
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.Properties.Resources.resources
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.csproj.GenerateResource.Cache
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.exe
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.pdb
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.EF6.dll
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.Linq.dll
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.csprojResolveAssemblyReference.cache

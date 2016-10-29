@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="main" Class="Main" BaseType="DbLinq.Data.Linq.DataContext" Provider="Sqlite" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="main.Chapters" Member="Chapters">
+    <Type Name="Chapters">
+      <Association Name="fk_Chapters_0" Member="Subjects" Storage="_subjects" Type="Subjects" ThisKey="SubjectID" OtherKey="ID" IsForeignKey="true" />
+      <Association Name="fk_Lessons_0" Member="Lessons" Storage="_lessons" Type="Lessons" ThisKey="ID" OtherKey="ChaptersID" DeleteRule="NO ACTION" />
+      <Column Name="ID" Member="ID" Storage="_id" Type="System.Int32" DbType="integer identity" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="true" />
+      <Column Name="Name" Member="Name" Storage="_name" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="SubjectID" Member="SubjectID" Storage="_subjectID" Type="System.Int32" DbType="integer" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="main.Lessons" Member="Lessons">
+    <Type Name="Lessons">
+      <Association Name="fk_Lessons_0" Member="Chapters" Storage="_chapters" Type="Chapters" ThisKey="ChaptersID" OtherKey="ID" IsForeignKey="true" />
+      <Association Name="fk_Questions_0" Member="Questions" Storage="_questions" Type="Questions" ThisKey="ID" OtherKey="LessonID" DeleteRule="NO ACTION" />
+      <Column Name="ChaptersID" Member="ChaptersID" Storage="_chaptersID" Type="System.Int32" DbType="integer" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="Description" Member="Description" Storage="_description" Type="System.String" DbType="nvarchar(1000)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="ID" Member="ID" Storage="_id" Type="System.Int32" DbType="integer identity" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="true" />
+      <Column Name="Name" Member="Name" Storage="_name" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="main.Questions" Member="Questions">
+    <Type Name="Questions">
+      <Association Name="fk_Questions_0" Member="Lessons" Storage="_lessons" Type="Lessons" ThisKey="LessonID" OtherKey="ID" IsForeignKey="true" />
+      <Column Name="Ans1" Member="Ans1" Storage="_ans1" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="Ans2" Member="Ans2" Storage="_ans2" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="Ans3" Member="Ans3" Storage="_ans3" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="Ans4" Member="Ans4" Storage="_ans4" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="CorrectAns" Member="CorrectAns" Storage="_correctAns" Type="System.Int32" DbType="int" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="ID" Member="ID" Storage="_id" Type="System.Int32" DbType="integer identity" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="true" />
+      <Column Name="LessonID" Member="LessonID" Storage="_lessonID" Type="System.Int32" DbType="integer" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="Question" Member="Question" Storage="_question" Type="System.String" DbType="nvarchar(200)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+      <Column Name="type" Member="Type" Storage="_type" Type="System.Int32" DbType="integer" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="main.Subjects" Member="Subjects">
+    <Type Name="Subjects">
+      <Association Name="fk_Chapters_0" Member="Chapters" Storage="_chapters" Type="Chapters" ThisKey="ID" OtherKey="SubjectID" DeleteRule="NO ACTION" />
+      <Column Name="ID" Member="ID" Storage="_id" Type="System.Int32" DbType="integer identity" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="true" />
+      <Column Name="Name" Member="Name" Storage="_name" Type="System.String" DbType="nvarchar(50)" IsPrimaryKey="false" IsDbGenerated="false" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

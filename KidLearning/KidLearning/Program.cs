@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KidLearning.db;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace KidLearning
         [STAThread]
         static void Main()
         {
+            //DBCreate.CreateDB();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainMenu());

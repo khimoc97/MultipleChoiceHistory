@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbHistoryModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=&quot;D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\dbHistory.dat&quot;;Foreign Keys=True" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6005: The data type '' is currently not supported for the target Entity Framework version; the column 'ID' in the table 'main.Chapters' was excluded.
+warning 6031: The column 'ID' on the table/view 'main.Chapters' was excluded, and is a key column.  The table/view has been excluded.  Please fix the entity in the schema file, and uncomment.
+        <EntityType Name="Chapters">
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="SubjectID" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6005: The data type '' is currently not supported for the target Entity Framework version; the column 'ID' in the table 'main.Lessons' was excluded.
+warning 6031: The column 'ID' on the table/view 'main.Lessons' was excluded, and is a key column.  The table/view has been excluded.  Please fix the entity in the schema file, and uncomment.
+        <EntityType Name="Lessons">
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="ChaptersID" Type="int" />
+          <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6005: The data type '' is currently not supported for the target Entity Framework version; the column 'ID' in the table 'main.Questions' was excluded.
+warning 6031: The column 'ID' on the table/view 'main.Questions' was excluded, and is a key column.  The table/view has been excluded.  Please fix the entity in the schema file, and uncomment.
+        <EntityType Name="Questions">
+          <Property Name="LessonID" Type="int" />
+          <Property Name="Question" Type="nvarchar" MaxLength="200" />
+          <Property Name="type" Type="int" />
+          <Property Name="Ans1" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ans2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ans3" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ans4" Type="nvarchar" MaxLength="50" />
+          <Property Name="CorrectAns" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6005: The data type '' is currently not supported for the target Entity Framework version; the column 'ID' in the table 'main.Subjects' was excluded.
+warning 6031: The column 'ID' on the table/view 'main.Subjects' was excluded, and is a key column.  The table/view has been excluded.  Please fix the entity in the schema file, and uncomment.
+        <EntityType Name="Subjects">
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+error 6004: The table 'main.Subjects' is referenced by a relationship, but cannot be found.
+error 6004: The table 'main.Chapters' is referenced by a relationship, but cannot be found.
+        <Association Name="FK_Chapters_0_0" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'main.Chapters' is referenced by a relationship, but cannot be found.
+error 6004: The table 'main.Lessons' is referenced by a relationship, but cannot be found.
+        <Association Name="FK_Lessons_0_0" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'main.Lessons' is referenced by a relationship, but cannot be found.
+error 6004: The table 'main.Questions' is referenced by a relationship, but cannot be found.
+        <Association Name="FK_Questions_0_0" />-->
+  <EntityContainer Name="dbHistoryModelStoreContainer" />
+</Schema>
