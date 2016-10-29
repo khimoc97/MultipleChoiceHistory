@@ -1,1 +1,9 @@
 E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\bin\Debug\MultipleChoiceHistory.exe.config
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\bin\Debug\MultipleChoiceHistory.exe
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\bin\Debug\MultipleChoiceHistory.pdb
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.csprojResolveAssemblyReference.cache
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.Properties.Resources.resources
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.csproj.GenerateResource.Cache
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.exe
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.pdb
+E:\Project\Dev\MultipleChoiceHistory\MultipleChoiceHistory\obj\Debug\MultipleChoiceHistory.Phom1.resources
