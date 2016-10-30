@@ -34,6 +34,9 @@
             // 
             // flGrSubject
             // 
+            this.flGrSubject.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.flGrSubject.Location = new System.Drawing.Point(13, 57);
             this.flGrSubject.Name = "flGrSubject";
             this.flGrSubject.Size = new System.Drawing.Size(779, 372);
