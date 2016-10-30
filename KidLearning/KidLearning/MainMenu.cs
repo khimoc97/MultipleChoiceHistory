@@ -43,7 +43,7 @@ namespace KidLearning
                 b.Height = 300;
                 b.Text = s.Name;
                 
-                flowLayoutPanel1.Controls.Add(b);
+                flGrSubject.Controls.Add(b);
             }
         }
 

@@ -85,6 +85,12 @@
     </Compile>
     <Compile Include="db\DBCreate.cs" />
     <Compile Include="db\Entities.cs" />
+    <Compile Include="Lession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lession.Designer.cs">
+      <DependentUpon>Lession.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </None>
     <EmbeddedResource Include="ChapterMenu.resx">
       <DependentUpon>ChapterMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lession.resx">
+      <DependentUpon>Lession.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

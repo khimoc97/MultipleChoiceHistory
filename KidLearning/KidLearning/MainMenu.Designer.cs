@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flGrSubject = new System.Windows.Forms.FlowLayoutPanel();
             this.lbSubjecMenu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // flGrSubject
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 57);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(779, 372);
-            this.flowLayoutPanel1.TabIndex = 1;
+            this.flGrSubject.Location = new System.Drawing.Point(13, 57);
+            this.flGrSubject.Name = "flGrSubject";
+            this.flGrSubject.Size = new System.Drawing.Size(779, 372);
+            this.flGrSubject.TabIndex = 1;
             // 
             // lbSubjecMenu
             // 
@@ -57,7 +57,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(804, 441);
             this.Controls.Add(this.lbSubjecMenu);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flGrSubject);
             this.Name = "MainMenu";
             this.Text = "Welcome to Kid Learning";
             this.Load += new System.EventHandler(this.MainMenu_Load);
@@ -67,7 +67,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flGrSubject;
         private System.Windows.Forms.Label lbSubjecMenu;
     }
 }

@@ -34,6 +34,11 @@ E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.Linq.dll
 E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.xml
 E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.xml
 E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.xml
+<<<<<<< Updated upstream
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\DbLinq.dll
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\DbLinq.Sqlite.dll
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.ChapterMenu.resources
+=======
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.ChapterMenu.resources
+>>>>>>> Stashed changes
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.Lession.resources
