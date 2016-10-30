@@ -15,3 +15,22 @@ D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Da
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.Linq.dll
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.xml
 D:\VS Projects\MultipleChoiceHistory\KidLearning\KidLearning\obj\Debug\KidLearning.csprojResolveAssemblyReference.cache
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\KidLearning.exe.config
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.exe
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.pdb
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.csprojResolveAssemblyReference.cache
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.MainMenu.resources
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.Properties.Resources.resources
+E:\Project\Dev\KidLearning\KidLearning\obj\Debug\KidLearning.csproj.GenerateResource.Cache
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\KidLearning.exe
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\KidLearning.pdb
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\DbLinq.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\DbLinq.Sqlite.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.xml
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\Dev\KidLearning\KidLearning\bin\Debug\System.Data.SQLite.xml

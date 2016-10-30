@@ -28,27 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtBox1 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbSubjecMenu = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtBox1
+            // flowLayoutPanel1
             // 
-            this.txtBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.txtBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBox1.Location = new System.Drawing.Point(13, 12);
-            this.txtBox1.Name = "txtBox1";
-            this.txtBox1.ReadOnly = true;
-            this.txtBox1.Size = new System.Drawing.Size(813, 13);
-            this.txtBox1.TabIndex = 0;
-            this.txtBox1.Text = "PLEASE CHOOSE ONE SUBJECT";
-            this.txtBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(13, 57);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(779, 372);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // lbSubjecMenu
+            // 
+            this.lbSubjecMenu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbSubjecMenu.AutoSize = true;
+            this.lbSubjecMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSubjecMenu.Location = new System.Drawing.Point(273, 20);
+            this.lbSubjecMenu.Name = "lbSubjecMenu";
+            this.lbSubjecMenu.Size = new System.Drawing.Size(274, 20);
+            this.lbSubjecMenu.TabIndex = 2;
+            this.lbSubjecMenu.Text = "CHOOSE ONE SUBJECT TO START";
+            this.lbSubjecMenu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(838, 441);
-            this.Controls.Add(this.txtBox1);
+            this.ClientSize = new System.Drawing.Size(804, 441);
+            this.Controls.Add(this.lbSubjecMenu);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "MainMenu";
             this.Text = "Welcome to Kid Learning";
             this.Load += new System.EventHandler(this.MainMenu_Load);
@@ -58,8 +67,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label lbSubjecMenu;
     }
 }
 
