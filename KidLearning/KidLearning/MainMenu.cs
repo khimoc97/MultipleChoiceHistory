@@ -41,8 +41,8 @@ namespace KidLearning
                 Button b = new Button();
                 b.Width = 300;
                 b.Height = 300;
+                b.Margin = new Padding(20);
                 b.Text = s.Name;
-                
                 flGrSubject.Controls.Add(b);
             }
         }
